@@ -179,10 +179,10 @@ export const Cart: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div>
           <div className="flex justify-between items-center mt-6">
-            <span className="text-[17px]">Order Total</span>
-            <span className="font-bold text-xl">${orderTotal.toFixed(2)}</span>
+            <span className="text-[17px] font-semibold">Order Total</span>
+            <span className="font-bold text-[1.8rem]">${orderTotal.toFixed(2)}</span>
+          </div>
           </div>
           <div className="flex mt-4 w-full">
             <button

@@ -72,7 +72,7 @@ export const ProductList: FC = () => {
                 <div className="absolute bottom-[-4px]">
                   {cartItem ? (
                     <div className="items-center gap-2">
-                      <div className="bg-[#c73d0e] rounded-full px-6 border-[#c2b2a3] border-[4px] hover:border-[#c73d0e]">
+                      <div className="bg-[#c73d0e] rounded-full border-[#c2b2a3] border-[4px] hover:border-[#c73d0e]">
                         <Button
                           onClick={() => decrementQuantity(product.name)}
                           className="p-7 hover:!bg-[#c73d0e] hover:border-[#c83c0e] rounded-full hover:text-[#fff] bg-[#c73d0e] text-white text-[19px] font-bold"
@@ -116,7 +116,7 @@ export const ProductList: FC = () => {
                   ) : (
                     <Button
                       onClick={() => addToCart(product)}
-                      className="bg-white p-7 hover:!bg-white hover:border-[#c83c0e] hover:text-[#c83c0e] !px-9 rounded-full text-black border-[#c2b2a3] border-[4px] text-[19px] font-semibold"
+                      className="bg-white sm:p-7 p-6 hover:!bg-white hover:border-[#c83c0e] hover:text-[#c83c0e] px-9 rounded-full text-black border-[#c2b2a3] border-[4px] text-[19px] font-semibold"
                     >
                       <MdOutlineAddShoppingCart
                         className="text-[#c83c0e]"
