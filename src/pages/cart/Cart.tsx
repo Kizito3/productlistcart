@@ -1,5 +1,5 @@
 import React from "react";
-import Illustration from "../../assets/images/illustration-empty-cart.svg";
+import Illustration from "/assets/images/illustration-empty-cart.svg";
 import useStore from "@/store/controlStore";
 import { Modal } from "../modal/Modal";
 
