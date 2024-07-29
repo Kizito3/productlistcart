@@ -71,8 +71,8 @@ export const ProductList: FC = () => {
               <div className="relative flex justify-center items-center">
                 <div className="absolute bottom-[-4px]">
                   {cartItem ? (
-                    <div className="items-center gap-2">
-                      <div className="bg-[#c73d0e] rounded-full border-[#c2b2a3] border-[4px] hover:border-[#c73d0e]">
+                    <div className="flex items-center justify-center gap-2">
+                      <div className="bg-[#c73d0e] rounded-full border-[#c2b2a3] border-[4px] hover:border-[#c73d0e] flex justify-center items-center">
                         <Button
                           onClick={() => decrementQuantity(product.name)}
                           className="p-7 hover:!bg-[#c73d0e] hover:border-[#c83c0e] rounded-full hover:text-[#fff] bg-[#c73d0e] text-white text-[19px] font-bold"
