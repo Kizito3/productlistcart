@@ -1,10 +1,10 @@
 export const products =[
     {
        "image": {
-            "thumbnail": "/assets/images/image-waffle-thumbnail.jpg",
-            "mobile": "/assets/images/image-waffle-mobile.jpg",
-            "tablet": "/assets/images/image-waffle-tablet.jpg",
-            "desktop": "/src/assets/images/image-waffle-desktop.jpg"
+            "thumbnail": "./src/assets/images/image-waffle-thumbnail.jpg",
+            "mobile": "./src/assets/images/image-waffle-mobile.jpg",
+            "tablet": "./src/assets/images/image-waffle-tablet.jpg",
+            "desktop": "./src/assets/images/image-waffle-desktop.jpg"
        },
        "name": "Waffle with Berries",
        "category": "Waffle",
